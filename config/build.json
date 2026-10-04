@@ -1,0 +1,1505 @@
+{
+ "fonts": {
+  "galmuri11": {
+   "path": "../assets/fonts/galmuri11/Galmuri11.ttf",
+   "sha256": "2c709890595668f7bdb6df408420fda957dde0288e95b31a1cc17a2ab98b4b4f"
+  },
+  "galmuri11_bold": {
+   "path": "../assets/fonts/galmuri11-bold/Galmuri11-Bold.ttf",
+   "sha256": "f899e7d8d646a1990a4b6260caa6631b3a50b567ea605ab0047d2d3a955deedb"
+  },
+  "galmuri9": {
+   "path": "../assets/fonts/galmuri9/Galmuri9.ttf",
+   "sha256": "48eaa0efdff031598ce1d0162e08cb8f53e8b666064bd5cdc2b902d508f231ee"
+  },
+  "galmuri7": {
+   "path": "../assets/fonts/galmuri7/Galmuri7.ttf",
+   "sha256": "1be9a0e60647fe919ed57eb1aaf4da2e188c654033bea51ad6010d1507880396"
+  },
+  "galmuri14": {
+   "path": "../assets/fonts/galmuri14/Galmuri14.ttf",
+   "sha256": "d3818c0f2898a3b2d79ccd04ec1e4de5e8940aa26abee261f73e315a44ce8df9"
+  },
+  "bmjua": {
+   "path": "../assets/fonts/bmjua/BMJUA.ttf",
+   "sha256": "e8e6aa8b1b662c7bf0d7f136f29e822e0985176458a6e5d0ba08afc4a5c901a9"
+  },
+  "denkichip": {
+   "path": "../assets/fonts/denkichip/x10y12pxDenkiChipHangul.ttf",
+   "sha256": "4589cb1a59bcbd669ad7ac0669827e5a4d411832048e9bdd9618c907c1a8d272"
+  },
+  "galmurimono11": {
+   "path": "../assets/fonts/galmurimono11/GalmuriMono11.ttf",
+   "sha256": "2380e9cc83e03a71f6abecbdbcad226061e3483ae19d4265f28797d4be73c2e5"
+  },
+  "galmuri11_condensed": {
+   "path": "../assets/fonts/galmuri11-condensed/Galmuri11-Condensed.ttf",
+   "sha256": "7b433b4a007c36dfb535fdea11de3e4f4c8b641ab591ed05d3bc0a4bbd75eb5f"
+  }
+ },
+ "components": [
+  {
+   "id": "academy-challenge-body",
+   "command": "prepare-story",
+   "translation": "../assets/translations/academy-challenge-body.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "academy-guide-icon-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/academy-guide-icon-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "academy-challenge-logos",
+   "command": "prepare-academy-logos",
+   "translation": "../assets/translations/academy-challenge-logos.json",
+   "font": "galmuri14",
+   "small_font": "galmuri11",
+   "medium_font": "bmjua",
+   "challenge": true
+  },
+  {
+   "id": "academy-guide",
+   "command": "prepare-text",
+   "translation": "../assets/translations/academy-guide.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "academy-logos",
+   "command": "prepare-academy-logos",
+   "translation": "../assets/translations/academy-logos.json",
+   "font": "galmuri14",
+   "medium_font": "bmjua"
+  },
+  {
+   "id": "academy-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/academy-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "academy-tuto00-body",
+   "command": "prepare-story",
+   "translation": "../assets/translations/academy-tuto00-body.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "academy-practice",
+   "command": "prepare-text",
+   "translation": "../assets/translations/academy-practice.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "academy-tuto01-body",
+   "command": "prepare-story",
+   "translation": "../assets/translations/academy-tuto01-body.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "accord-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/accord-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "amitie-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/amitie-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "appreciation-labels",
+   "command": "prepare-appreciation",
+   "translation": "../assets/translations/appreciation-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "arle-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/arle-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "attention-screen",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/attention-screen.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "battle-event-banners",
+   "command": "prepare-linear-labels",
+   "translation": "../assets/translations/battle-event-banners.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "battle-decor-labels",
+   "command": "prepare-linear-labels",
+   "translation": "../assets/translations/battle-decor-labels.json",
+   "font": "bmjua",
+   "small_font": "denkichip"
+  },
+  {
+   "id": "battle-results",
+   "command": "prepare-battle-results",
+   "translation": "../assets/translations/battle-results.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "battle-rule-small-labels",
+   "command": "prepare-linear-labels",
+   "translation": "../assets/translations/battle-rule-small-labels.json",
+   "font": "galmuri7",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "battle-start",
+   "command": "prepare-battle-start",
+   "translation": "../assets/translations/battle-start.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "battle-ui",
+   "command": "prepare-battle-ui",
+   "translation": "../assets/art/handicap-background-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "denkichip",
+   "button_font": "denkichip",
+   "name_font": "bmjua"
+  },
+  {
+   "id": "carbuncle-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/carbuncle-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "challenge-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/challenge-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "challenge-problem-labels",
+   "command": "prepare-academy-list",
+   "translation": "../assets/translations/challenge-problem-labels.json",
+   "font": "bmjua",
+   "surface": "challenge-problem"
+  },
+  {
+   "id": "challenge-play",
+   "command": "prepare-text",
+   "translation": "../assets/translations/challenge-play.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "challenge-problem",
+   "command": "prepare-text",
+   "translation": "../assets/translations/challenge-problem.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "charselect-4p-none-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/charselect-4p-none-label.json",
+   "font": "galmuri7",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "continue-sprites",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/continue-points-font-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "donguri-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/donguri-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "draco-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/draco-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "ecolo-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/ecolo-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "extra-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/extra-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "endless-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/endless-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "feli-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/feli-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "general-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/general-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "guide-labels",
+   "command": "prepare-guides",
+   "translation": "../assets/translations/guide-labels.json",
+   "font": "galmuri9"
+  },
+  {
+   "id": "free-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/free-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "guide-obj-labels",
+   "command": "prepare-guide-obj",
+   "translation": "../assets/translations/guide-obj-labels.json",
+   "font": "galmuri9"
+  },
+  {
+   "id": "klug-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/klug-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "lemres-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/lemres-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "maguro-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/maguro-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "main-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/main-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "minnade-bosyu-kettei",
+   "command": "prepare-text",
+   "translation": "../assets/translations/minnade-bosyu-kettei.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "minnade-bosyu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/minnade-bosyu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "minnade-error",
+   "command": "prepare-text",
+   "translation": "../assets/translations/minnade-error.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "minnade-sanka",
+   "command": "prepare-text",
+   "translation": "../assets/translations/minnade-sanka.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "minnade-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/minnade-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "multi-exit-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/multi-exit-label.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "multiplayer-panels",
+   "command": "prepare-multiplayer-panels",
+   "translation": "../assets/translations/multiplayer-panels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "nazo-conditions",
+   "command": "prepare-nazo-conditions",
+   "translation": "../assets/translations/nazo-conditions.json",
+   "font": "denkichip",
+   "narrow_font": "galmuri11_condensed"
+  },
+  {
+   "id": "nazo-counter",
+   "command": "prepare-nazo-counter",
+   "translation": "../assets/translations/nazo-counter.json",
+   "font": "galmuri9"
+  },
+  {
+   "id": "nazo-hud-labels",
+   "command": "prepare-puyo-hud-labels",
+   "translation": "../assets/translations/nazo-hud-labels.json",
+   "font": "denkichip"
+  },
+  {
+   "id": "nazo-panels",
+   "command": "prepare-nazo-panels",
+   "translation": "../assets/translations/nazo-panels.json",
+   "font": "galmuri9"
+  },
+  {
+   "id": "nazo-reach",
+   "command": "prepare-nazo-reach",
+   "translation": "../assets/translations/nazo-reach.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "nazo-remaining-label",
+   "command": "prepare-linear-labels",
+   "translation": "../assets/translations/nazo-remaining-label.json",
+   "font": "denkichip",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "onion-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/onion-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "pair-chain-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/pair-chain-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "options",
+   "command": "prepare-text",
+   "translation": "../assets/translations/options.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "participation-panels",
+   "command": "prepare-participation-panels",
+   "translation": "../assets/translations/participation-panels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "pause-buttons",
+   "command": "prepare-pause",
+   "translation": "../assets/art/pause-buttons-background-import.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "pause-title",
+   "command": "prepare-pause-title",
+   "translation": "../assets/translations/pause-title.json",
+   "font": "galmuri11",
+   "artwork": "../assets/art/pause-title-import.json"
+  },
+  {
+   "id": "point-labels",
+   "command": "prepare-point-labels",
+   "translation": "../assets/translations/point-labels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "point-title",
+   "command": "prepare-point-title",
+   "translation": "../assets/translations/point-title.json",
+   "font": "galmuri14"
+  },
+  {
+   "id": "prince-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/prince-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "raffina-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/raffina-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "record-labels",
+   "command": "prepare-record-labels",
+   "translation": "../assets/art/record-labels-font-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "narrow_font": "denkichip"
+  },
+  {
+   "id": "record-statistics",
+   "command": "prepare-record-statistics",
+   "translation": "../assets/translations/record-statistics.json",
+   "font": "galmuri7"
+  },
+  {
+   "id": "result-name-sprites",
+   "command": "prepare-sprites",
+   "translation": "../assets/translations/result-name-sprites.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "result-newrecord-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/result-newrecord-label.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "ridel-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/ridel-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "ringo-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/ringo-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "risukuma-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/risukuma-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "rule-labels",
+   "command": "prepare-rules",
+   "translation": "../assets/translations/rule-labels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "rule-edit",
+   "command": "prepare-text",
+   "translation": "../assets/translations/rule-edit.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "rule-panels",
+   "command": "prepare-rule-panels",
+   "translation": "../assets/translations/rule-panels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "rulue-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/rulue-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "satan-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/satan-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "schezo-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/schezo-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "select-story-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/select-story-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "settings-labels",
+   "command": "prepare-settings",
+   "translation": "../assets/translations/settings-labels.json",
+   "font": "galmuri11_bold"
+  },
+  {
+   "id": "rule-screens",
+   "command": "prepare-rule-screens",
+   "translation": "../assets/translations/rule-screens.json",
+   "font": "galmuri11",
+   "title_font": "galmuri14"
+  },
+  {
+   "id": "shop-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/shop-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "bmjua"
+  },
+  {
+   "id": "shop-screen",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/shop-screen.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "shop-text",
+   "command": "prepare-text",
+   "translation": "../assets/translations/shop-text.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "shop-title-sprite",
+   "command": "prepare-sprites",
+   "translation": "../assets/translations/shop-title-sprite.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "shop-trivia-text",
+   "command": "prepare-text",
+   "translation": "../assets/translations/shop-trivia-text.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "sig-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/sig-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "simulator-pass-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/simulator-pass-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "simulator-screens",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/simulator-screens.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "practice-notebook-title",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/practice-notebook-title.json",
+   "font": "bmjua",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "simulator",
+   "command": "prepare-text",
+   "translation": "../assets/translations/simulator.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "staffroll-lyrics",
+   "command": "prepare-linear-labels",
+   "translation": "../assets/translations/staffroll-lyrics.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "single-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/single-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "suketoudara-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/suketoudara-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "system-error-screens",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/system-error-screens.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "time-counter-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/time-counter-label.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11_condensed"
+  },
+  {
+   "id": "toko-logos",
+   "command": "prepare-toko-logos",
+   "translation": "../assets/translations/toko-logos.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "toko-statistics",
+   "command": "prepare-toko-statistics",
+   "translation": "../assets/translations/toko-statistics.json",
+   "font": "galmuri7"
+  },
+  {
+   "id": "wait-info-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wait-info-label.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-continue-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-continue-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-continue",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-continue.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-designate-c-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-designate-c-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-designate-c",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-designate-c.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "unlock-notices",
+   "command": "prepare-unlock",
+   "translation": "../assets/translations/unlock-notices.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-designate-p",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-designate-p.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-dialog",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-dialog.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-friend-check",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-friend-check.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-friend-list",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-friend-list.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-friend-input",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-friend-input.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-friend-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-friend-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-matching-headers",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-matching-headers.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri9"
+  },
+  {
+   "id": "wifi-indefinite",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-indefinite.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-matching",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-matching.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-ranking-headers",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-ranking-headers.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri9"
+  },
+  {
+   "id": "wifi-play-menu",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-play-menu.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-ranking",
+   "command": "prepare-text",
+   "translation": "../assets/translations/wifi-ranking.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "wifi-rule-badges",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-rule-badges.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri9",
+   "narrow_font": "denkichip"
+  },
+  {
+   "id": "wifi-table-headers",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-table-headers.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11_condensed"
+  },
+  {
+   "id": "wifi-unlock-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-unlock-label.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "win-academy-boss-win",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-academy-boss-win.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-00-arl",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-00-arl.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-01-ami",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-01-ami.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-02-rng",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-02-rng.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-03-sig",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-03-sig.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-04-raf",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-04-raf.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-05-shz",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-05-shz.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-06-rul",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-06-rul.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-07-sat",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-07-sat.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-08-car",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-08-car.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-09-suk",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-09-suk.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-10-wch",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-10-wch.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-11-dra",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-11-dra.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-12-rid",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-12-rid.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-13-klu",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-13-klu.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-14-fel",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-14-fel.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-15-lem",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-15-lem.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-16-aco",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-16-aco.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-17-yur",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-17-yur.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-18-oni",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-18-oni.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-19-dng",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-19-dng.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-20-pri",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-20-pri.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-21-mag",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-21-mag.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-22-ris",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-22-ris.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-23-eco",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-23-eco.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-story-win-extra",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-story-win-extra.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "win-vs-win",
+   "command": "prepare-story",
+   "translation": "../assets/translations/win-vs-win.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "witch-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/witch-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "yurei-story",
+   "command": "prepare-story",
+   "translation": "../assets/translations/yurei-story.json",
+   "font": "galmurimono11"
+  },
+  {
+   "id": "simulator-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/simulator-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11_condensed",
+   "narrow_font": "denkichip"
+  },
+  {
+   "id": "academy-captions",
+   "command": "prepare-academy-captions",
+   "translation": "../assets/translations/academy-captions.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "art-battle-call-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/battle-call-import.json"
+  },
+  {
+   "id": "art-battle-defeat-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/battle-defeat-import.json"
+  },
+  {
+   "id": "art-continue-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/continue-import.json"
+  },
+  {
+   "id": "art-game-over-glyphs-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/game-over-glyphs-import.json"
+  },
+  {
+   "id": "art-game-over-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/game-over-import.json"
+  },
+  {
+   "id": "art-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/import.json"
+  },
+  {
+   "id": "art-result-newrecord-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/result-newrecord-import.json"
+  },
+  {
+   "id": "art-split-call-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/split-call-import.json"
+  },
+  {
+   "id": "art-story-result-names-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/story-result-names-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "name-font",
+   "command": "prepare-name-font",
+   "font": "galmuri7"
+  },
+  {
+   "id": "art-academy-battle-names-import",
+   "command": "prepare-academy-battle-labels",
+   "translation": "../assets/art/academy-battle-names-import.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "art-academy-lists-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/academy-lists-import.json"
+  },
+  {
+   "id": "art-battle-decor-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/battle-decor-import.json"
+  },
+  {
+   "id": "art-comm-error-flower-import",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/comm-error-flower.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-comm-error-sunburst-import",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/comm-error-sunburst.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-comm-friend-title-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/comm-friend-title-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-comm-matching-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/comm-matching-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-comm-status-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/comm-status-import.json"
+  },
+  {
+   "id": "art-continue-orbs-sprites-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/continue-orbs-sprites-import.json",
+   "font": "bmjua",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "menu-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/menu-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "single-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/single-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "option-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/option-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "free-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/free-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "endless-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/endless-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-menu-school-titles-import",
+   "command": "prepare-titles",
+   "translation": "../assets/art/menu-school-titles-import.json",
+   "font": "galmuri11"
+  },
+  {
+   "id": "continue-circle-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/continue-circle-labels.json",
+   "font": "bmjua",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "art-record-buttons-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/record-buttons-import.json",
+   "font": "galmuri11_condensed",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "record-title",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/record-title.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "rule-edit-title",
+   "command": "prepare-screen-text",
+   "translation": "../assets/translations/rule-edit-title.json",
+   "font": "bmjua",
+   "small_font": "galmuri9"
+  },
+  {
+   "id": "rule-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/rule-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11"
+  },
+  {
+   "id": "multiplayer-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/multiplayer-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "multiplayer-size-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/multiplayer-size-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-play-menu-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-play-menu-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-designate-p-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-designate-p-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11"
+  },
+  {
+   "id": "wifi-indefinite-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-indefinite-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11"
+  },
+  {
+   "id": "art-selection-names-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/selection-names-import.json"
+  },
+  {
+   "id": "art-selection-types-import",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/selection-type-labels.json",
+   "font": "galmuri9",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-selection-ui-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/selection-ui-import.json"
+  },
+  {
+   "id": "art-shop-decor-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/shop-decor-import.json"
+  },
+  {
+   "id": "art-story-names-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/story-names-import.json"
+  },
+  {
+   "id": "art-story-result-modes-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/story-result-modes-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-story-result-texture-episodes-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/story-result-texture-episodes-import.json"
+  },
+  {
+   "id": "art-story-result-texture-modes-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/story-result-texture-modes-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-story-selection-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/story-selection-import.json"
+  },
+  {
+   "id": "art-story-vs-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/story-vs-import.json"
+  },
+  {
+   "id": "art-vs8p-selection-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/vs8p-selection-import.json"
+  },
+  {
+   "id": "art-wifi-friend-input-title-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/wifi-friend-input-title-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-wifi-friend-list-title-import",
+   "command": "prepare-sprites",
+   "translation": "../assets/art/wifi-friend-list-title-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-shop-rule-buttons-import",
+   "command": "prepare-labels",
+   "translation": "../assets/art/shop-rule-buttons-import.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-wm-failure-body-import",
+   "command": "prepare-screen-text",
+   "translation": "../assets/art/wm-failure-body-import.json",
+   "font": "galmuri11",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-continue-none-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-continue-none-label.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "art-testmode-import",
+   "command": "prepare-art",
+   "spec": "../assets/art/testmode-import.json"
+  },
+  {
+   "id": "art-haribote-screens",
+   "command": "prepare-screen-text",
+   "translation": "../assets/art/haribote-screens-import.json",
+   "font": "galmuri9",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri11_condensed"
+  },
+  {
+   "id": "system-orb-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/system-orb-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7",
+   "medium_font": "galmuri9"
+  },
+  {
+   "id": "system-body-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/system-body-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-connect-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-connect-button-labels.json",
+   "font": "galmuri14",
+   "small_font": "galmuri11_bold"
+  },
+  {
+   "id": "wifi-continue-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-continue-button-labels.json",
+   "font": "galmuri14",
+   "small_font": "galmuri11_bold"
+  },
+  {
+   "id": "select-rule-orb-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/select-rule-orb-labels.json",
+   "font": "galmuri14",
+   "small_font": "galmuri11_bold"
+  },
+  {
+   "id": "wifi-menu-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-menu-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-friend-menu-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-friend-menu-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "wifi-friend-input-button-labels",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/wifi-friend-input-button-labels.json",
+   "font": "galmuri11_bold",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "selection-start-label",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/selection-start-label.json",
+   "font": "galmuri9",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "selection-confirm-large",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/selection-confirm-large.json",
+   "font": "bmjua",
+   "small_font": "galmuri7"
+  },
+  {
+   "id": "selection-confirm-small",
+   "command": "prepare-labels",
+   "translation": "../assets/translations/selection-confirm-small.json",
+   "font": "galmuri9",
+   "small_font": "galmuri7"
+  }
+ ],
+ "owners": {
+  "menu/select_story.narc": {
+   "99": "art-story-vs-import",
+   "101": "art-story-vs-import",
+   "103": "art-story-vs-import",
+   "105": "art-story-vs-import",
+   "107": "art-story-vs-import",
+   "109": "art-story-vs-import",
+   "111": "art-story-vs-import",
+   "113": "art-story-vs-import",
+   "115": "art-story-vs-import",
+   "117": "art-story-vs-import",
+   "119": "art-story-vs-import",
+   "121": "art-story-vs-import",
+   "123": "art-story-vs-import",
+   "125": "art-story-vs-import",
+   "127": "art-story-vs-import",
+   "129": "art-story-vs-import",
+   "131": "art-story-vs-import",
+   "133": "art-story-vs-import",
+   "135": "art-story-vs-import",
+   "137": "art-story-vs-import",
+   "139": "art-story-vs-import",
+   "141": "art-story-vs-import",
+   "143": "art-story-vs-import",
+   "145": "art-story-vs-import",
+   "147": "art-story-selection-import",
+   "149": "art-story-selection-import",
+   "151": "art-story-selection-import",
+   "153": "art-story-selection-import",
+   "155": "art-story-selection-import",
+   "157": "art-story-selection-import",
+   "159": "art-story-selection-import",
+   "161": "art-story-selection-import",
+   "163": "art-story-selection-import",
+   "165": "art-story-selection-import",
+   "167": "art-story-selection-import",
+   "169": "art-story-selection-import",
+   "171": "art-story-selection-import",
+   "173": "art-story-selection-import",
+   "175": "art-story-selection-import",
+   "177": "art-story-selection-import",
+   "179": "art-story-selection-import",
+   "181": "art-story-selection-import",
+   "183": "art-story-selection-import",
+   "185": "art-story-selection-import",
+   "187": "art-story-selection-import",
+   "189": "art-story-selection-import",
+   "191": "art-story-selection-import"
+  },
+  "puyo/cutin/cutin.narc": {
+   "123": "art-battle-call-import",
+   "125": "art-split-call-import"
+  },
+  "puyo/puyo2P/puyo2P.narc": {
+   "640": "art-battle-defeat-import",
+   "802": "art-split-call-import",
+   "824": "art-battle-call-import"
+  },
+  "puyo/result/result.narc": {
+   "32": "art-continue-orbs-sprites-import",
+   "33": "art-continue-orbs-sprites-import",
+   "34": "art-continue-orbs-sprites-import",
+   "36": "art-continue-orbs-sprites-import",
+   "39": "art-continue-import",
+   "41": "art-continue-import",
+   "42": "art-continue-import",
+   "44": "art-continue-import",
+   "45": "art-continue-import",
+   "46": "art-continue-import",
+   "47": "art-continue-import",
+   "48": "art-continue-import",
+   "50": "art-continue-import",
+   "51": "art-game-over-import",
+   "54": "art-game-over-import",
+   "55": "art-game-over-glyphs-import",
+   "57": "art-game-over-glyphs-import",
+   "58": "art-game-over-glyphs-import",
+   "59": "art-game-over-glyphs-import",
+   "60": "art-game-over-import",
+   "62": "art-game-over-import",
+   "65": "art-result-newrecord-import"
+  },
+  "result_story/result_story.narc": {
+   "145": "art-story-result-texture-episodes-import",
+   "147": "art-story-result-texture-episodes-import",
+   "148": "art-story-result-texture-episodes-import",
+   "149": "art-story-result-texture-episodes-import"
+  },
+  "rule_edit/rule_edit.narc": {
+   "6": "rule-edit-title",
+   "7": "rule-edit-title"
+  },
+  "shop/shop.narc": {
+   "112": "art-shop-decor-import",
+   "41": "art-shop-rule-buttons-import"
+  }
+ },
+ "banner": "banner.json",
+ "anti_piracy_bypass": true
+}
