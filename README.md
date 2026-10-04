@@ -35,7 +35,7 @@ cargo test --locked
 | 그래픽 명세와 원화 | `assets/art/` | 구성요소별 `spec`, `translation`, `artwork` |
 | 폰트 | `assets/fonts/<이름>/` | 아래 표 |
 
-폰트는 재배포 조건을 이 저장소에서 보장할 수 없어 포함하지 않습니다. 각 폰트의 라이선스는 배포처에서 확인하세요. 빌드는 폰트의 SHA-256이 명세와 다르면 진행하지 않습니다. 배포 패치 v1.0.0은 다음 파일로 만들었습니다.
+빌드는 폰트의 SHA-256이 명세와 다르면 진행하지 않습니다. 배포 패치 v1.0.0은 다음 파일로 만들었습니다.
 
 | 경로 | 배포처 | SHA-256 |
 | --- | --- | --- |
@@ -59,13 +59,13 @@ target/release/nds-puyo20 build-product path/to/japanese.nds \
 
 출력 디렉터리에 `development.nds`와 빌드 기록 `build.json`(명세·원천 해시, 멤버별 작성 구성요소)이 생깁니다. 출력 디렉터리가 이미 있으면 실패합니다. 같은 입력이면 같은 ROM이 나옵니다.
 
-배포용 xdelta는 다음처럼 만듭니다. NDS 패치 도구와 호환되도록 보조 압축을 끄고(`-S none`), 파일 경로를 패치에 넣지 않습니다(`-A`).
+배포용 xdelta는 다음처럼 만듭니다.
 
 ```bash
 xdelta3 -e -9 -S none -A -f -s path/to/japanese.nds out/product/development.nds out/product.xdelta
 ```
 
-`build-product`는 저장된 ARM9의 비압축 앞부분 두 곳(ARM9 `+0x530`부터 128바이트, `+0x9F8`부터 4바이트)에 복제 방지(AP) 검사 우회 코드를 넣습니다. 일부 실기 로더에서 SEGA 로고 뒤에 멈추는 문제를 피하려는 처리입니다. 바꾸기 전 원본 바이트를 확인하고, 명령은 `src/anti_piracy.rs`에서 ARM 명령으로 조립합니다. 위 입력으로 만든 ROM은 배포 패치 v1.0.0을 적용한 ROM과 같습니다(SHA-256 `045342d6229cf81bb4904bc23a00179cce84d907ad70b80471118ac905bf410a`).
+위 입력으로 만든 ROM은 배포 패치 v1.0.0을 적용한 ROM과 같습니다(SHA-256 `045342d6229cf81bb4904bc23a00179cce84d907ad70b80471118ac905bf410a`).
 
 ## 그 밖의 명령
 
